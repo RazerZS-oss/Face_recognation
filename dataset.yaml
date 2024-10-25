@@ -1,0 +1,5 @@
+train: dataset-r/train1  # Ganti dengan path ke folder gambar pelatihan Anda
+val: dataset-r/val1  # Ganti dengan path ke folder gambar validasi Anda
+
+nc: 429  # Jumlah kelas (misalnya, 1 jika hanya ada kelas wajah)
+names: ['S001','S008', 'S427', 'S428', 'S429']  # Nama kelas (ganti sesuai dengan nama kelas yang Anda gunakan)
